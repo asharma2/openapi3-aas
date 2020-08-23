@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.aks.openapi3</groupId>
+		<artifactId>openapi3-aas</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<groupId>com.aks.openapi3.education</groupId>
+	<artifactId>education-aas</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>education-aas</name>
+	<url>http://maven.apache.org</url>
+
+
+	<properties>
+		<openapi3.input.specs></openapi3.input.specs>
+		<openapi3.configuration.file></openapi3.configuration.file>
+		<openapi3.ignore.file.override></openapi3.ignore.file.override>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
